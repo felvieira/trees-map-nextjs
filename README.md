@@ -1,7 +1,7 @@
 
-[React Next Boilerplate]
+[Trees Map A React next.js Project]
 
-This is a [Next.js](https://nextjs.org/) boilerplate
+[PROD URL](https://www.typescriptlang.org/)
 
 ## What is inside?
 
@@ -15,7 +15,6 @@ This project uses lot of stuff as:
 - [Storybook](https://storybook.js.org/)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
-- [Husky](https://github.com/typicode/husky)
 
 ## Getting Started
 
@@ -50,11 +49,3 @@ You can type in terminal:
 yarn generate ComponentName
 ```
 And will be generated a component folder, with styles,component,storybook file and test file automagicaly
-
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

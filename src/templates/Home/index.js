@@ -5,10 +5,6 @@ import MenuYears from 'components/MenuYear'
 import MenuChart from 'components/MenuChart'
 import WrapperMaps from 'components/WrapperMaps'
 
-export type MainProps = {
-	description?: string
-}
-
 const Home = ({ datas, years }) => {
 	const [viewport, setViewport] = useState({
 		latitude: 0.751348,

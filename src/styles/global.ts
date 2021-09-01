@@ -10,8 +10,8 @@ type GlobalStylesProps = {
 }
 
 const GlobalStyles: GlobalStyleComponent<
-  GlobalStylesProps,
-  DefaultTheme
+	GlobalStylesProps,
+	DefaultTheme
 > = createGlobalStyle`
 @font-face {
   font-family: 'Fredoka One';
@@ -108,28 +108,28 @@ const GlobalStyles: GlobalStyleComponent<
 
 
 ${({ theme, removeBg }) => css`
-  html {
-    font-size: 62.5%;
-  }
-  html,
-  body,
-  #__next {
-    height: 100%;
-  }
-  body {
-    font-family: ${theme.font.family};
-    font-size: ${theme.font.sizes.medium};
-    ${!removeBg &&
-    css`
-      background-color: ${theme.colors.mainBg};
-    `}
-  }
-  .mapboxgl-popup {
-    top: -6%;
-  }
+	html {
+		font-size: 62.5%;
+	}
+	html,
+	body,
+	#__next {
+		height: 100%;
+	}
+	body {
+		font-family: ${theme.font.family};
+		font-size: ${theme.font.sizes.medium};
+		${!removeBg &&
+		css`
+			background-color: ${theme.colors.mainBg};
+		`}
+	}
+	.mapboxgl-popup {
+		top: -6%;
+	}
 `}
 
 
-`;
+`
 
 export default GlobalStyles

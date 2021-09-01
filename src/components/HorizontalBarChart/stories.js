@@ -4,7 +4,7 @@ import HorizontalBarChart from '.'
 export default {
 	title: 'HorizontalBarChart',
 	component: HorizontalBarChart
-} as Meta
+}
 
 export const Default = (args) => <HorizontalBarChart {...args} />
 

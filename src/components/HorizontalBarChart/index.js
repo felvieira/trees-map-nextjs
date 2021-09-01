@@ -1,8 +1,7 @@
-import { Bar } from "react-chartjs-2";
-import * as S from "./styles";
+import { Bar } from 'react-chartjs-2'
+import * as S from './styles'
 
 const HorizontalBarChart = ({ dataChart }) => {
-
 	const options = {
 		indexAxis: 'y',
 		elements: {
@@ -35,4 +34,4 @@ const HorizontalBarChart = ({ dataChart }) => {
 	)
 }
 
-export default HorizontalBarChart;
+export default HorizontalBarChart

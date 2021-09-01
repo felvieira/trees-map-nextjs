@@ -1,10 +1,9 @@
-import { Meta } from '@storybook/react'
 import MenuYear from '.'
 
 export default {
 	title: 'MenuYear',
 	component: MenuYear
-} as Meta
+}
 
 export const Default = (args) => <MenuYear {...args} />
 

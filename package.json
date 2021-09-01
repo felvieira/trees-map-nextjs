@@ -1,5 +1,5 @@
 {
-	"name": "react-next-boilerplate",
+	"name": "trees-maps-nextjs",
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
@@ -14,12 +14,7 @@
 		"storybook": "start-storybook -s ./public -p 6006",
 		"build-storybook": "build-storybook -s ./public"
 	},
-	"lint-staged": {
-		"src/**/*": [
-			"yarn lint --fix",
-			"yarn test --findRelatedTests --bail"
-		]
-	},
+
 	"dependencies": {
 		"@urbica/react-map-gl": "^1.14.3",
 		"chart.js": "^3.5.1",
