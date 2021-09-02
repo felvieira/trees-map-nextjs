@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should render the MAIN page 1`] = `
+.c0 {
+  z-index: 1;
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  width: 100%;
+  padding: 1.6rem;
+  background: #7FB685;
+  border-bottom: 6px solid #426A5A;
+}
+
+.c1 {
+  background: #426A5A;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  color: #7FB685;
+  cursor: pointer;
+}
+
+.c2 {
+  background: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  color: #426A5A;
+  cursor: pointer;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    2000
+  </div>
+  <div
+    class="c2"
+  >
+    2002
+  </div>
+  <div
+    class="c2"
+  >
+    2004
+  </div>
+  <div
+    class="c2"
+  >
+    2006
+  </div>
+</div>
+`;
