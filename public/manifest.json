@@ -1,6 +1,6 @@
 {
-	"name": "react-next-boilerplate",
-	"short_name": "react-next-boilerplate",
+	"name": "PlantDrone",
+	"short_name": "PlantDrone",
 	"icons": [
 		{
 			"src": "/img/icon-192.png",
@@ -10,12 +10,12 @@
 		{
 			"src": "/img/icon-512.png",
 			"type": "image/png",
-			"sizes": "512x512"
+			"sizes": "500x500"
 		}
 	],
 	"background_color": "#06092B",
-	"description": "Boilerlate utilizando Typescript, React, NextJS e Styled Components!",
+	"description": "Sistema criado em React com Next.js para visualização de mapas e gráficos",
 	"display": "fullscreen",
 	"start_url": "/",
-	"theme_color": "#06092B"
+	"theme_color": "#39A2AE"
 }
